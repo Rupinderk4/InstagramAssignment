@@ -20,7 +20,7 @@ export default function Index() {
         <Ionicons name="chevron-back" size={28} color="black" />
 
         <View style={styles.headingText}>
-          <Text style={styles.accountName}>rupiiiiiiii567</Text>
+          <Text style={styles.accountName}>INDER._567</Text>
           <Text style={styles.title}>Posts</Text>
         </View>
 
@@ -33,8 +33,8 @@ export default function Index() {
           <Image source={postPhoto} style={styles.avatar} />
 
           <View style={styles.userDetails}>
-            <Text style={styles.bold}>rupiiiiiiii567</Text>
-            <Text style={styles.smallText}>rup</Text>
+            <Text style={styles.bold}>inder._567</Text>
+            <Text style={styles.smallText}>rupii</Text>
           </View>
 
           <Ionicons name="ellipsis-horizontal" size={22} color="black" />
