@@ -44,7 +44,7 @@ export default function Index() {
         <Image
           source={postPhoto}
           style={styles.postImage}
-          resizeMode="cover"
+          resizeMode="contain"
         />
 
         {/* Post icons */}
