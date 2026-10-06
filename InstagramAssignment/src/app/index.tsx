@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     color: "#111111",
   },
   spacer: {
-    width: 28,
+    width: 18,
   },
   userRow: {
     flexDirection: "row",
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
   },
   postImage: {
     width: "100%",
-    height: 700,
+    height: 300,
   
   },
   actions: {
