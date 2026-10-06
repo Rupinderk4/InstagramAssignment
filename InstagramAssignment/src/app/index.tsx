@@ -20,7 +20,7 @@ export default function Index() {
         <Ionicons name="chevron-back" size={28} color="black" />
 
         <View style={styles.headingText}>
-          <Text style={styles.accountName}>INSTAGRAM</Text>
+          <Text style={styles.accountName}>rupiiiiiiii567</Text>
           <Text style={styles.title}>Posts</Text>
         </View>
 
