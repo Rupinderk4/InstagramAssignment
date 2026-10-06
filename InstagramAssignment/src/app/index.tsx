@@ -64,7 +64,7 @@ export default function Index() {
             <Image source={postPhoto} style={styles.likeAvatar} />
 
             <Text style={styles.bodyText}>
-              Liked by <Text style={styles.bold}>paisley.print.48</Text>
+              Liked by <Text style={styles.bold}>rxndhawa._67</Text>
               {" and "}
               <Text style={styles.bold}>7 others</Text>
             </Text>
