@@ -44,7 +44,7 @@ export default function Index() {
         <Image
           source={postPhoto}
           style={styles.postImage}
-          resizeMode="cover"
+          resizeMode="contain"
         />
 
         {/* Post icons */}
@@ -64,9 +64,9 @@ export default function Index() {
             <Image source={postPhoto} style={styles.likeAvatar} />
 
             <Text style={styles.bodyText}>
-              Liked by <Text style={styles.bold}>paisley.print.48</Text>
+              Liked by <Text style={styles.bold}>rxndhawa._67</Text>
               {" and "}
-              <Text style={styles.bold}>7 others</Text>
+              <Text style={styles.bold}>1000 others</Text>
             </Text>
           </View>
 
@@ -75,7 +75,7 @@ export default function Index() {
             {" Soft Smile , peaceful soul , and a heart full of love. "}
           </Text>
 
-          <Text style={styles.comments}>View all 12 comments</Text>
+          <Text style={styles.comments}>View all 78 comments</Text>
 
           <Text style={styles.bodyText}>
             <Text style={styles.bold}>karam.67</Text>
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     backgroundColor: "#ffffff",
-    height: 600,
+   
     
     
   },
@@ -132,11 +132,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   accountName: {
-    fontSize: 11,
-    color: "#888888",
+    fontSize: 30,
+    color: "#888888f0",
   },
   title: {
-    fontSize: 18,
+    fontSize: 19,
     fontWeight: "700",
     color: "#111111",
   },
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     width: 34,
     height: 34,
     borderRadius: 17,
-    marginRight: 9,
+    marginRight: 5,
   },
   userDetails: {
     flex: 1,
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     color: "#111111",
   },
   smallText: {
-    fontSize: 11,
+    fontSize: 15,
     color: "#333333",
   },
   postImage: {
@@ -198,7 +198,7 @@ const styles = StyleSheet.create({
     borderRadius: 11,
   },
   bodyText: {
-    fontSize: 13,
+    fontSize: 16,
     lineHeight: 19,
     color: "#111111",
     flexShrink: 1,
@@ -221,6 +221,8 @@ const styles = StyleSheet.create({
     borderTopColor: "#eeeeee",
     paddingVertical: 12,
   },
+
+  
   alertContainer: {
     paddingHorizontal: 16,
     paddingBottom: 8,
